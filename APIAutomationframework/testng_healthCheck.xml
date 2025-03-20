@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/APIAutomation/APIAutomationframework">
+        <classes>
+            <class name="org.example.asserts.tests.sample.TestIntegrationSample">
+                <methods>
+                    <include name="testCreatebooking"/>
+                    <include name="testVerifyBookingId"/>
+                    <include name="testUpdatebooking"/>
+                    <include name="testDeletebooking"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
