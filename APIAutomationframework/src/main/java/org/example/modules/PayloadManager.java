@@ -39,6 +39,9 @@ public class PayloadManager {
 
     }
 
+    /// ----Token
+    ///
+
     public String setAuthPayload()
     {
         Auth auth = new Auth();
